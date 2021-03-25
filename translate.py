@@ -11,7 +11,7 @@ def translate(word,num):
 	try:
 		n = int(num)
 	except:
-		print("Wrong Input")
+		print("Wrong Input.")
 		sys.exit()
 
 	codes = {1: "fr", 2: "es", 3: "it", 4: "ru", 5: "hi"}
